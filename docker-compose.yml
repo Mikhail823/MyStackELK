@@ -19,6 +19,7 @@ services:
   setup:
     profiles:
       - setup
+
     build:
       context: setup/
       args:
